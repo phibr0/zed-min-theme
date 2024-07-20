@@ -1,0 +1,7 @@
+id = "min-theme"
+name = "Min Theme"
+version = "0.0.1"
+schema_version = 1
+authors = ["Phillip Bronzel <hello@phib.ro>"]
+description = "A port of miguelsolorio's Min Theme for Zed."
+repository = "https://github.com/phibr0/zed-min-theme"
