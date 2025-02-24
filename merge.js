@@ -1,9 +1,7 @@
-const readJson = async (path) => JSON.parse(await Bun.file(path).text());
-
 const [base, dark, light] = await Promise.all([
-  readJson("./themes/base.json"),
-  readJson("./themes/dark.json"),
-  readJson("./themes/light.json"),
+  Bun.file("./themes/base.json").json(),
+  Bun.file("./themes/dark.json").json(),
+  Bun.file("./themes/light.json").json(),
 ]);
 
 base.themes.push(
