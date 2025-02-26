@@ -11,6 +11,14 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Create PR
+        uses: huacnlee/zed-extension-action@v1
+        with:
+          extension-name: min-theme
+          push-to: phibr0/extensions
+        env:
+          COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
+
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -20,10 +28,27 @@ jobs:
 
       - run: bun merge.js
 
-      - name: Create PR
-        uses: huacnlee/zed-extension-action@v1
-        with:
-          extension-name: min-theme
-          push-to: phibr0/extensions
+      - name: Get Version
+        id: version
+        run: echo "tag=$(git describe --tags --abbrev=0)" >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
         env:
-          COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref_name }}
+          release_name: Release ${{ github.ref_name }}
+          draft: false
+          prerelease: false
+
+      - name: Upload Theme File
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./min-theme.json
+          asset_name: min-theme.json
+          asset_content_type: application/json
