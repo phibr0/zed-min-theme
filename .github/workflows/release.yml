@@ -3,7 +3,7 @@ name: Release Theme
 on:
   push:
     tags:
-      - "*"
+      - "v*"
 
 jobs:
   build:
@@ -44,3 +44,11 @@ jobs:
           asset_path: ./min-theme.json
           asset_name: min-theme.json
           asset_content_type: application/json
+
+      - name: Create PR
+        uses: huacnlee/zed-extension-action@v1
+        with:
+          extension-name: min-theme
+          push-to: phibr0/extensions
+        env:
+          COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
