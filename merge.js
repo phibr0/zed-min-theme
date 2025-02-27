@@ -1,7 +1,7 @@
 const [base, dark, light] = await Promise.all([
-  Bun.file("./themes/base.json").json(),
-  Bun.file("./themes/dark.json").json(),
-  Bun.file("./themes/light.json").json(),
+  Bun.file("./src/base.json").json(),
+  Bun.file("./src/dark.json").json(),
+  Bun.file("./src/light.json").json(),
 ]);
 
 base.themes.push(
@@ -27,6 +27,6 @@ base.themes.push(
   },
 );
 
-await Bun.write("./min-theme.json", JSON.stringify(base, null, 2));
+await Bun.write("./themes/min-theme.json", JSON.stringify(base, null, 2));
 
 console.log("Themes built successfully!");

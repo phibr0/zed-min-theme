@@ -1,6 +1,6 @@
 id = "min-theme"
 name = "Min Theme"
-version = "0.1.8"
+version = "0.1.9"
 schema_version = 1
 authors = ["Phillip Bronzel <hello@phib.ro>"]
 description = "A port of miguelsolorio's Min Theme for Zed."
