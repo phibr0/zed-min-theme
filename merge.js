@@ -8,7 +8,12 @@ base.themes.push(
   {
     name: "Min Dark (Solid)",
     appearance: "dark",
-    style: dark,
+    style: {
+      ...dark,
+      background: "#141414",
+      "status_bar.background": "#141414",
+      "title_bar.background": "#141414",
+    },
   },
   {
     name: "Min Dark (Blurred)",
@@ -18,7 +23,12 @@ base.themes.push(
   {
     name: "Min Light (Solid)",
     appearance: "light",
-    style: light,
+    style: {
+      ...light,
+      background: "#D0D0D0",
+      "status_bar.background": "#D0D0D0",
+      "title_bar.background": "#D0D0D0",
+    },
   },
   {
     name: "Min Light (Blurred)",
