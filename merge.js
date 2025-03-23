@@ -25,9 +25,10 @@ base.themes.push(
     appearance: "light",
     style: {
       ...light,
-      background: "#D0D0D0",
-      "status_bar.background": "#D0D0D0",
-      "title_bar.background": "#D0D0D0",
+      background: "#FBFBFB",
+      "scrollbar.track.border": "#E9E9E9",
+      "status_bar.background": "#FBFBFB",
+      "title_bar.background": "#FBFBFB",
     },
   },
   {
