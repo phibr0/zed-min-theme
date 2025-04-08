@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item id="1">
+    <name>Example Item</name>
+    <description>This is an example XML file</description>
+    <properties>
+      <property name="color">blue</property>
+      <property name="size">medium</property>
+    </properties>
+  </item>
+</root>

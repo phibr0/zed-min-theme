@@ -1,0 +1,7 @@
+{
+  "name": "Example JSON",
+  "description": "This is an example JSON file",
+  "version": 1.0,
+  "isActive": true,
+  "tags": ["example", "test", "json"]
+}

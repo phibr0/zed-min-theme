@@ -1,7 +1,5 @@
 # Min Theme [![GitHub license](https://img.shields.io/github/license/phibr0/zed-min-theme.svg)](https://github.com/phibr0/zed-min-theme/blob/main/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/phibr0/zed-min-theme.svg)](https://github.com/phibr0/zed-min-theme/stargazers) [![GitHub release](https://img.shields.io/github/release/phibr0/zed-min-theme.svg)](https://github.com/phibr0/zed-min-theme/releases)
 
-Min Theme is a minimalist and elegant theme heavily inspired by
-[Miguel Solorio's Min Theme for VSCode](https://github.com/miguelsolorio/min-theme).
 This theme aims to provide a clean and distraction-free coding environment while
 maintaining excellent readability and visual appeal.
 
@@ -21,8 +19,9 @@ To build the theme, run `bun merge.js` in the root directory.
 
 ## Credits
 
-This theme is heavily inspired by
-[Miguel Solorio's Min Theme for VSCode](https://github.com/miguelsolorio/min-theme).
+This color theme is heavily inspired by [Miguel Solorio's Min Theme for VSCode](https://github.com/miguelsolorio/min-theme).
+
+The Icons are taken from [Artem Laman's Chalice Icons](https://github.com/artlaman/chalice-icon-theme)
 
 ## License
 

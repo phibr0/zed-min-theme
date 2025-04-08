@@ -1,0 +1,19 @@
+/* Example CSS file */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h1 {
+  color: #0066cc;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
