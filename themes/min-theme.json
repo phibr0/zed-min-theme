@@ -60,12 +60,15 @@
         "terminal.ansi.dim_white": "#898989",
         "link_text.hover": "#BBBBBB",
         "created": "#6C9C77",
-        "deleted": "#f97583",
-        "deleted.background": "#f9758330",
+        "deleted": "#F97583",
+        "deleted.background": "#F9758330",
         "info.background": "#6C9C7730",
-        "error": "#f97583",
-        "error.background": "#1A1A1A",
-        "error.border": "#f97583",
+        "error": "#F97583",
+        "error.background": "#47181C",
+        "error.border": "#F97583",
+        "warning": "#FFE62A",
+        "warning.background": "#55450E",
+        "warning.border": "#FFE62A",
         "hidden": "#727272",
         "hint": "#969696ff",
         "ignored": "#99999980",
@@ -107,7 +110,7 @@
             "color": "#BBB"
           },
           "punctuation": {
-            "color": "#d1d1d1"
+            "color": "#D1D1D1"
           },
           "string": {
             "color": "#FFAB70"
@@ -123,7 +126,7 @@
             "font_weight": 400
           },
           "text.literal": {
-            "color": "#e394dc",
+            "color": "#E394DC",
             "font_style": "normal",
             "font_weight": 400
           },
@@ -207,12 +210,15 @@
         "terminal.ansi.dim_white": "#898989",
         "link_text.hover": "#BBBBBB",
         "created": "#6C9C77",
-        "deleted": "#f97583",
-        "deleted.background": "#f9758330",
+        "deleted": "#F97583",
+        "deleted.background": "#F9758330",
         "info.background": "#6C9C7730",
-        "error": "#f97583",
-        "error.background": "#1A1A1A",
-        "error.border": "#f97583",
+        "error": "#F97583",
+        "error.background": "#47181C",
+        "error.border": "#F97583",
+        "warning": "#FFE62A",
+        "warning.background": "#55450E",
+        "warning.border": "#FFE62A",
         "hidden": "#727272",
         "hint": "#969696ff",
         "ignored": "#99999980",
@@ -254,7 +260,7 @@
             "color": "#BBB"
           },
           "punctuation": {
-            "color": "#d1d1d1"
+            "color": "#D1D1D1"
           },
           "string": {
             "color": "#FFAB70"
@@ -270,7 +276,7 @@
             "font_weight": 400
           },
           "text.literal": {
-            "color": "#e394dc",
+            "color": "#E394DC",
             "font_style": "normal",
             "font_weight": 400
           },
@@ -351,17 +357,20 @@
         "terminal.ansi.cyan": "#0097A7",
         "terminal.ansi.bright_cyan": "#4DD0E1",
         "terminal.ansi.dim_cyan": "#006064",
-        "terminal.ansi.white": "#b1b1b1",
-        "terminal.ansi.bright_white": "#b1b1b1",
+        "terminal.ansi.white": "#B1B1B1",
+        "terminal.ansi.bright_white": "#B1B1B1",
         "terminal.ansi.dim_white": "#F5F5F5",
         "link_text.hover": "#212121",
         "created": "#388E3C",
         "deleted": "#D32F2F",
-        "deleted.background": "#f9758330",
+        "deleted.background": "#F9758330",
         "info.background": "#6C9C7730",
         "error": "#D32F2F",
         "error.background": "#FFEBEE",
         "error.border": "#D32F2F",
+        "warning": "#FFE62A",
+        "warning.background": "#FFFDE7",
+        "warning.border": "#FFE62A",
         "hidden": "#BDBDBD",
         "hint": "#757575",
         "ignored": "#75757580",
@@ -498,17 +507,20 @@
         "terminal.ansi.cyan": "#0097A7",
         "terminal.ansi.bright_cyan": "#4DD0E1",
         "terminal.ansi.dim_cyan": "#006064",
-        "terminal.ansi.white": "#b1b1b1",
-        "terminal.ansi.bright_white": "#b1b1b1",
+        "terminal.ansi.white": "#B1B1B1",
+        "terminal.ansi.bright_white": "#B1B1B1",
         "terminal.ansi.dim_white": "#F5F5F5",
         "link_text.hover": "#212121",
         "created": "#388E3C",
         "deleted": "#D32F2F",
-        "deleted.background": "#f9758330",
+        "deleted.background": "#F9758330",
         "info.background": "#6C9C7730",
         "error": "#D32F2F",
         "error.background": "#FFEBEE",
         "error.border": "#D32F2F",
+        "warning": "#FFE62A",
+        "warning.background": "#FFFDE7",
+        "warning.border": "#FFE62A",
         "hidden": "#BDBDBD",
         "hint": "#757575",
         "ignored": "#75757580",
