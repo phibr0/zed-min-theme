@@ -74,7 +74,12 @@
         "ignored": "#99999980",
         "modified": "#AB9775",
         "predictive": "#999999",
-        "players": [],
+        "players": [
+          {
+            "cursor": "#F8F8F8",
+            "selection": "#0D284780"
+          }
+        ],
         "syntax": {
           "attribute": {
             "color": "#B392F1"
@@ -224,7 +229,12 @@
         "ignored": "#99999980",
         "modified": "#AB9775",
         "predictive": "#999999",
-        "players": [],
+        "players": [
+          {
+            "cursor": "#F8F8F8",
+            "selection": "#0D284780"
+          }
+        ],
         "syntax": {
           "attribute": {
             "color": "#B392F1"
